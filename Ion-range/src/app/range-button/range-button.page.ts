@@ -11,5 +11,8 @@ export class RangeButtonPage implements OnInit {
 
   ngOnInit() {
   }
-
+//   function for range change must use debounce in html with it
+  rangeChange(event: any) {
+    console.log(event.detail.value)
+  }
 }
